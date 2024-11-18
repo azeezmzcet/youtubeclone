@@ -1,0 +1,69 @@
+
+
+
+.post{
+    width: 268px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.postimagecon{
+   position: relative;
+   width: 263px;
+   height: 153px; 
+}
+
+.postimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.postduration{
+    position: absolute;
+
+    background-color:darkslategrey;
+    bottom: 5px;
+    right: 0;
+    padding:2px 5px;
+    font-size: 12px;
+    font-weight: 500;
+
+
+}
+
+
+.postinfocontainer{
+    display: flex;
+    margin-top: 15px;
+}
+
+.postavatar{
+   width: 32px;
+   height: 32px;
+   border-radius:50%; 
+   object-fit: cover;
+   margin-right: 10px;
+}
+
+.postinfo{
+    display: flex;
+    flex-direction: column;
+
+}
+.posttitle{
+    font-size: 15px;
+    font-weight: 500;
+   margin-bottom: 5px;
+}
+
+.postChennel,
+.postDetail{
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaa;
+    margin-bottom: 3px;
+    
+}
+
